@@ -39,7 +39,7 @@ const Dealers = () => {
       });
 
       setStates(Array.from(new Set(states)))
-      setDealersList(all_dealers)
+      setDealersList(all_dealers || [])
     }
   }
   useEffect(() => {
